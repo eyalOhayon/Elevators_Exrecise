@@ -1,0 +1,18 @@
+.elevators { 
+    bottom: 10px;
+    left: 140px;
+    display: flex;
+    position: absolute;
+    height: var(--elevators_height);
+}
+  
+.elevator__col{
+    border: 1px solid #ebebeb;
+    border-top: 2px solid darken(#ebebeb, 2%);
+    border-bottom: 2px solid darken(#ebebeb, 2%);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: var(--elevators_width);
+}
